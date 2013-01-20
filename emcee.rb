@@ -1,6 +1,6 @@
 # Rap lyric generator using Markov Chains.
 # 
-# Inspired from Dominik Bhaton's example
+# Inspired from Dominik Bhaton's submission
 # at http://www.rubyquiz.com/quiz74.html.
 class Emcee
   
@@ -33,7 +33,6 @@ class Emcee
     words = @beginnings.sample
     while words.size < 12
       break if retries < 1
-      puts @range.inspect
       prev = words[@range]
       last_gram = prev.map(&:to_s)
       if next_gram = follows(last_gram)
