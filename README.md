@@ -1,3 +1,3 @@
 ###Emcee: Markov Chains for Rap Lyric Generation
 
-Just extract the files in `raps.zip`, or your locate your own favourite rhymes in .txt format. See `example.rb`, and `rap.txt`.
+Just extract the files in `raps.zip` (100 greatest rap songs of all times), or your locate your own favourite rhymes in .txt format. Put that in a directory called `raps`. See `example.rb`.
