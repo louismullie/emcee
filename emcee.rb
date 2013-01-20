@@ -53,7 +53,6 @@ class Emcee
     
     while count < number
       current = rhyme || []
-      # next if current.length < 30
       rhymes << current; count += 1
     end 
     
@@ -66,7 +65,7 @@ class Emcee
   def learn_line(sentence)
 
     words = sentence.split(/\s+/)
-    return unless words.size > @order
+    return unless words.size > 5
 
     buf = []
 
