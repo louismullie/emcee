@@ -1,7 +1,7 @@
 require './emcee'
 
 # Create MC.
-mc = Emcee.new(2)
+mc = Emcee.new(3)
 
 # Train MC.
 Dir['./raps/*.txt'].each do |file|
